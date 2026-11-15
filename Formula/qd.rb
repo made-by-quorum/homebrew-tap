@@ -15,23 +15,23 @@
 class Qd < Formula
   desc "Session engine for orchestrating Claude Code sessions"
   homepage "https://github.com/made-by-quorum/homebrew-tap"
-  version "0.5.1"
+  version "0.5.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/made-by-quorum/homebrew-tap/releases/download/qd-v0.5.1/quorum-dispatch-v0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "64b1212a71eab8d5defb473d1d991459f2b3bd79dde4ce6e51ad3e3440bdd09a"
+      url "https://github.com/made-by-quorum/homebrew-tap/releases/download/qd-v0.5.2/quorum-dispatch-v0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "ea93db58d511087c04875eeefe7147c9ce04de4f4dd6f37dedd67d3fbed70672"
     end
     on_intel do
-      url "https://github.com/made-by-quorum/homebrew-tap/releases/download/qd-v0.5.1/quorum-dispatch-v0.5.1-x86_64-apple-darwin.tar.gz"
-      sha256 "5d2e966a0e1847c0a1addcc3c3d6ca2a312ea82e526b09f62e5f04561d6c4e73"
+      url "https://github.com/made-by-quorum/homebrew-tap/releases/download/qd-v0.5.2/quorum-dispatch-v0.5.2-x86_64-apple-darwin.tar.gz"
+      sha256 "e90b553dcacc1f5e7ed2d26a0fd908ba3dad2239bb8f52b110c98d80a0daa9c9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/made-by-quorum/homebrew-tap/releases/download/qd-v0.5.1/quorum-dispatch-v0.5.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a0aeb43c3469b0a182ebf43d0c9120bd3ca6519226f30422b770852cd043573e"
+      url "https://github.com/made-by-quorum/homebrew-tap/releases/download/qd-v0.5.2/quorum-dispatch-v0.5.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "261ca428e7a5908c854d11d5dea548a313c62e8885a7f6ad66610bde726d458c"
     end
     on_arm do
       # No prebuilt aarch64-unknown-linux-gnu in this release, and no source is published:
